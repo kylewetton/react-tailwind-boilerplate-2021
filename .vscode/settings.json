@@ -1,0 +1,10 @@
+{
+    "boxed-components.useTemplates": {
+        "component" : {
+            "src" : "templates/component",
+            "dest" : "src/components"
+        }
+    },
+    "css.validate": false,
+    "explorer.compactFolders": false
+}
