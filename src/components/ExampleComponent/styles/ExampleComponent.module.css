@@ -1,0 +1,40 @@
+/*
+    Use @apply at the top of each class/id/selector, then add your Tailwind utility classes.
+    Remember to install the Tailwind CSS Intellisense extension.
+*/
+
+.wrapper {
+    @apply
+    p-12
+    bg-gray-200
+    h-screen
+    flex
+    justify-center
+    items-center   
+}
+
+.examplecomponent {
+    @apply
+    p-4
+    rounded-sm
+    bg-indigo-200
+    text-indigo-900
+    text-sm
+    text-center
+    transition
+    duration-200
+    ease-out
+    transform
+    origin-top-right
+    hover:shadow-xl
+    hover:-translate-y-1/4
+    hover:-rotate-3
+    hover:bg-red-200
+    hover:text-red-900
+}
+
+.examplecomponent span {
+    @apply
+    text-xs
+    text-gray-800
+}

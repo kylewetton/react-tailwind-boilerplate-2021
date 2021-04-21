@@ -1,44 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# React Tailwind Boilerplate
+###  2021 EDITION
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+I've tested many different ways of using Tailwind in a React project and I've come up with what I believe is the best. This keeps your JSX/markup clean of utility classes, while using the full Tailwind library along, as a bonus, this includes the latest 'just-in-time' version of Tailwind, meaning the compile times are very fast.
 
-### `yarn start`
+## Stack
+React
+Typescript
+Tailwind CSS with just-in-time compiling
+Storybook
+Redux Toolkit
+Jest
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Bonus
+I've included a `/templates` folder. These files will look strange but they're used by a custom vscode extension I created called **Boxed  Components** I _highly_ recommend you include when building from this boilerplate.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Essentially you're able create new components (or anything really) that are instantly foldered, linked up, exported and have a Storybook intance included in them with one click. Very useful for building out many components.
 
-### `yarn test`
+The vscode extension isn't published, you can download the `boxed-components-1.0.0.vsix` file from the [Boxed Components](https://github.com/kylewetton/vscode-boxed-components) repo and install it in Visual Studio Code using the [Install from VSIX...](https://stackoverflow.com/a/19080034) option in Visual Studio Code. Follow the repo ReadMe to see how to use it.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you'd prefer not to use this extension, feel free to delete the `/templates` folder.
 
-### `yarn build`
+## How to use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+### Install **Tailwind CSS IntelliSense**  VS Code extension by Brad Cornes, this adds autocomplete for all Tailwind classes
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Just check out the package.json to see the available scripts. Follow the example component to see how to leverage Tailwind.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+PS. Craco is a package that lets us use PostCSS in a Create React App installation, in case you were wondering.

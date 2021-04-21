@@ -8,7 +8,7 @@ const VersionEmitter: React.FC<VersionEmitterProps> = () => {
 
     const {version} = pack;
     return (
-        <span className={styles.versionEmitter}>Version {version}</span>
+        <span className={styles.versionEmitter}>{version}</span>
     );
 };
 
