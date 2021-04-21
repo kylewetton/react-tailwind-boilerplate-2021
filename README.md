@@ -3,7 +3,9 @@
 
 ---
 
-I've tested many different ways of using Tailwind in a React project and I've come up with what I believe is the best. This keeps your JSX/markup clean of utility classes, while using the full Tailwind library along, as a bonus, this includes the latest 'just-in-time' version of Tailwind, meaning the compile times are very fast.
+I've tested many different ways of using Tailwind in a React project and I've come up with what I believe is the best. This keeps your JSX/markup clean of utility classes, while using the full Tailwind library.
+
+As a bonus, this includes the latest 'just-in-time' version of Tailwind, meaning the compile times are very fast.
 
 ## Stack
 - React
