@@ -1,5 +1,6 @@
 import ExampleComponent from '../ExampleComponent';
 import VersionEmitter from '../VersionEmitter';
+
 const App = () => {
     return (
         <ExampleComponent>
