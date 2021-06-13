@@ -64,7 +64,7 @@
     "@types/react-redux": "^7.1.16",
     "autoprefixer": "^9.8.6",
     "enzyme": "^3.11.0",
-    "postcss": ">=8.2.10",
+    "postcss": "^8.2.10",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
   }
 }
