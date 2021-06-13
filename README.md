@@ -20,7 +20,7 @@ I've included a `/templates` folder. These files will look strange but they're u
 
 Essentially you're able create new components (or anything really) that are instantly foldered, linked up, exported and have a Storybook intance included in them with one click. Very useful for building out many components.
 
-The vscode extension isn't published, you can download the `boxed-components-1.0.0.vsix` file from the [Boxed Components](https://github.com/kylewetton/vscode-boxed-components) repo and install it in Visual Studio Code using the [Install from VSIX...](https://stackoverflow.com/a/19080034) option in Visual Studio Code. Follow the repo ReadMe to see how to use it.
+Search for `Boxed Components` by `kylewetton` in the VS Code Marketplace, extension ID is `kylewetton.boxed-components`.
 
 If you'd prefer not to use this extension, feel free to delete the `/templates` folder.
 
