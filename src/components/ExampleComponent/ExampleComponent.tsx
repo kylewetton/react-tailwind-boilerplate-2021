@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './styles/ExampleComponent.module.css';
 import { ExampleComponentProps } from './types';
 
@@ -9,5 +10,9 @@ const ExampleComponent: React.FC<ExampleComponentProps> = ({children}) => {
         </div>
     );
 };
+
+ExampleComponent.propTypes = {
+    children: PropTypes.any
+}
 
 export default ExampleComponent;
